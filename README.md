@@ -2,7 +2,7 @@
 
 This project applies machine learning techniques to detect vulnerabilities in Rust code using an embedded feature representation. The notebook contains data preparation, model training, and evaluation steps.
 
-Requirements
+#Requirements
 To run the notebook, make sure you have the following installed:
 
 Python 3.8+
@@ -26,8 +26,8 @@ Train and evaluate a machine learning model (e.g., Random Forest).
 
 View metrics like precision, recall, F1-score, and confusion matrix.
 
-Dataset
+#Dataset
 The dataset contains Rust code samples labeled as vulnerable or non-vulnerable. Each code snippet is embedded using a pre-trained model with 768-dimensional feature vectors.
 
-Output
+#Output
 The model outputs classification metrics and a confusion matrix to evaluate performance on detecting vulnerabilities.
