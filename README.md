@@ -27,7 +27,7 @@ Train and evaluate a machine learning model (e.g., Random Forest).
 View metrics like precision, recall, F1-score, and confusion matrix.
 
 # Dataset
-The dataset contains Rust code samples labeled as vulnerable or non-vulnerable. Each code snippet is embedded using a pre-trained model with 768-dimensional feature vectors.
+The dataset contains 162 Rust code samples which will be labeled as vulnerable(0) or non-vulnerable(1). Each code snippet is embedded using a pre-trained model with 768-dimensional feature vectors.
 
 # Output
 The model outputs classification metrics and a confusion matrix to evaluate performance on detecting vulnerabilities.
